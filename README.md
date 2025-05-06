@@ -279,3 +279,4 @@ Update pom.xml:
 qst 1:
 java -cp "target/classes;target/dependency/_" presentation.Replica 1
 java -cp "target/classes;target/dependency/_" presentation.ClientWriter
+clientReader returns the first line

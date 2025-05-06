@@ -18,7 +18,7 @@ public class MessageConsumer {
             channel.basicConsume(queue, true, callback, consumerTag -> {});
             //logger.info("Started consuming from queue: {}", queue);
         } catch (Exception e) {
-            l//ogger.error("Failed to consume from queue: {}", queue, e);
+            //ogger.error("Failed to consume from queue: {}", queue, e);
             throw new RuntimeException("Consume failed", e);
         }
     }
