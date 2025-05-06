@@ -1,0 +1,384 @@
+2025-05-06 18:36:10 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 18:36:11 [main] INFO  data.FileManager - Directory created or already exists: replica1
+2025-05-06 18:36:11 [main] INFO  data.FileManager - Directory created or already exists: replica1
+2025-05-06 18:36:11 [main] INFO  messaging.MessageConsumer - Started consuming from write_queue
+2025-05-06 18:36:11 [main] INFO  messaging.MessageConsumer - Started consuming from replica1_queue
+2025-05-06 18:36:11 [main] INFO  presentation.Replica - Replica 1 started
+2025-05-06 18:36:47 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 18:36:48 [main] INFO  data.FileManager - Directory created or already exists: replica2
+2025-05-06 18:36:48 [main] INFO  data.FileManager - Directory created or already exists: replica2
+2025-05-06 18:36:48 [main] INFO  messaging.MessageConsumer - Started consuming from write_queue
+2025-05-06 18:36:48 [main] INFO  messaging.MessageConsumer - Started consuming from replica2_queue
+2025-05-06 18:36:48 [main] INFO  presentation.Replica - Replica 2 started
+2025-05-06 18:37:34 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 18:37:34 [main] INFO  data.FileManager - Directory created or already exists: replica3
+2025-05-06 18:37:34 [main] INFO  data.FileManager - Directory created or already exists: replica3
+2025-05-06 18:37:34 [main] INFO  messaging.MessageConsumer - Started consuming from write_queue
+2025-05-06 18:37:34 [main] INFO  messaging.MessageConsumer - Started consuming from replica3_queue
+2025-05-06 18:37:34 [main] INFO  presentation.Replica - Replica 3 started
+2025-05-06 18:37:47 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 18:37:47 [main] INFO  messaging.MessagePublisher - Published to write_queue: 1 Texte message1
+2025-05-06 18:37:47 [pool-1-thread-7] INFO  data.FileManager - Wrote line to replica1\data.txt: 1 Texte message1
+2025-05-06 18:37:48 [main] INFO  messaging.MessagePublisher - Published to write_queue: 2 Texte message2
+2025-05-06 18:37:49 [pool-1-thread-7] INFO  data.FileManager - Wrote line to replica2\data.txt: 2 Texte message2
+2025-05-06 18:37:49 [main] INFO  messaging.MessagePublisher - Published to write_queue: 3 Texte message3
+2025-05-06 18:37:49 [pool-1-thread-7] INFO  data.FileManager - Wrote line to replica3\data.txt: 3 Texte message3
+2025-05-06 18:37:50 [main] INFO  messaging.MessagePublisher - Published to write_queue: 4 Texte message4
+2025-05-06 18:37:50 [pool-1-thread-8] INFO  data.FileManager - Wrote line to replica1\data.txt: 4 Texte message4
+2025-05-06 18:44:03 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 18:44:04 [main] INFO  messaging.MessagePublisher - Published to write_queue: 1 Texte message1
+2025-05-06 18:44:04 [pool-1-thread-8] INFO  data.FileManager - Wrote line to replica2\data.txt: 1 Texte message1
+2025-05-06 18:44:05 [main] INFO  messaging.MessagePublisher - Published to write_queue: 2 Texte message2
+2025-05-06 18:44:05 [pool-1-thread-8] INFO  data.FileManager - Wrote line to replica3\data.txt: 2 Texte message2
+2025-05-06 18:44:06 [main] INFO  messaging.MessagePublisher - Published to write_queue: 3 Texte message3
+2025-05-06 18:44:06 [pool-1-thread-9] INFO  data.FileManager - Wrote line to replica1\data.txt: 3 Texte message3
+2025-05-06 18:44:07 [main] INFO  messaging.MessagePublisher - Published to write_queue: 4 Texte message4
+2025-05-06 18:44:07 [pool-1-thread-9] INFO  data.FileManager - Wrote line to replica2\data.txt: 4 Texte message4
+2025-05-06 18:44:39 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 18:44:40 [main] INFO  messaging.MessagePublisher - Published to write_queue: 1 Texte message1
+2025-05-06 18:44:40 [pool-1-thread-9] INFO  data.FileManager - Wrote line to replica3\data.txt: 1 Texte message1
+2025-05-06 18:44:41 [main] INFO  messaging.MessagePublisher - Published to write_queue: 2 Texte message2
+2025-05-06 18:44:41 [pool-1-thread-10] INFO  data.FileManager - Wrote line to replica1\data.txt: 2 Texte message2
+2025-05-06 18:44:42 [main] INFO  messaging.MessagePublisher - Published to write_queue: 3 Texte message3
+2025-05-06 18:44:42 [pool-1-thread-10] INFO  data.FileManager - Wrote line to replica2\data.txt: 3 Texte message3
+2025-05-06 18:44:43 [main] INFO  messaging.MessagePublisher - Published to write_queue: 4 Texte message4
+2025-05-06 18:44:43 [pool-1-thread-10] INFO  data.FileManager - Wrote line to replica3\data.txt: 4 Texte message4
+2025-05-06 18:44:48 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 18:44:49 [main] INFO  messaging.MessagePublisher - Published to write_queue: 1 Texte message1
+2025-05-06 18:44:49 [pool-1-thread-3] INFO  data.FileManager - Wrote line to replica1\data.txt: 1 Texte message1
+2025-05-06 18:44:50 [main] INFO  messaging.MessagePublisher - Published to write_queue: 2 Texte message2
+2025-05-06 18:44:50 [pool-1-thread-3] INFO  data.FileManager - Wrote line to replica2\data.txt: 2 Texte message2
+2025-05-06 18:44:51 [main] INFO  messaging.MessagePublisher - Published to write_queue: 3 Texte message3
+2025-05-06 18:44:51 [pool-1-thread-3] INFO  data.FileManager - Wrote line to replica3\data.txt: 3 Texte message3
+2025-05-06 18:44:52 [main] INFO  messaging.MessagePublisher - Published to write_queue: 4 Texte message4
+2025-05-06 18:44:52 [pool-1-thread-4] INFO  data.FileManager - Wrote line to replica1\data.txt: 4 Texte message4
+2025-05-06 19:45:23 [main] INFO  application.MajorityVoter - Found 2 majority lines with threshold 2
+2025-05-06 19:46:59 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 19:50:03 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 19:50:03 [main] INFO  data.FileManager - Directory created or already exists: replica1
+2025-05-06 19:50:03 [main] INFO  data.FileManager - Directory created or already exists: replica1
+2025-05-06 19:50:03 [main] INFO  messaging.MessageConsumer - Started consuming from write_queue
+2025-05-06 19:50:03 [main] INFO  messaging.MessageConsumer - Started consuming from replica1_queue
+2025-05-06 19:50:03 [main] INFO  presentation.Replica - Replica 1 started
+2025-05-06 19:50:10 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 19:50:10 [main] INFO  data.FileManager - Directory created or already exists: replica2
+2025-05-06 19:50:10 [main] INFO  data.FileManager - Directory created or already exists: replica2
+2025-05-06 19:50:10 [main] INFO  messaging.MessageConsumer - Started consuming from write_queue
+2025-05-06 19:50:10 [main] INFO  messaging.MessageConsumer - Started consuming from replica2_queue
+2025-05-06 19:50:10 [main] INFO  presentation.Replica - Replica 2 started
+2025-05-06 19:50:18 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 19:50:18 [main] INFO  data.FileManager - Directory created or already exists: replica3
+2025-05-06 19:50:18 [main] INFO  data.FileManager - Directory created or already exists: replica3
+2025-05-06 19:50:18 [main] INFO  messaging.MessageConsumer - Started consuming from write_queue
+2025-05-06 19:50:18 [main] INFO  messaging.MessageConsumer - Started consuming from replica3_queue
+2025-05-06 19:50:18 [main] INFO  presentation.Replica - Replica 3 started
+2025-05-06 19:50:24 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 19:51:46 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 19:54:12 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 19:54:12 [main] INFO  messaging.QueueManager - Declared exchange: write_exchange (type: fanout)
+2025-05-06 19:54:12 [main] INFO  messaging.MessagePublisher - Published to exchange write_exchange with routing key : 1 Texte message1
+2025-05-06 19:54:12 [main] INFO  presentation.ClientWriter - Sent: 1 Texte message1
+2025-05-06 19:54:13 [main] INFO  messaging.MessagePublisher - Published to exchange write_exchange with routing key : 2 Texte message2
+2025-05-06 19:54:13 [main] INFO  presentation.ClientWriter - Sent: 2 Texte message2
+2025-05-06 19:54:14 [main] INFO  messaging.MessagePublisher - Published to exchange write_exchange with routing key : 3 Texte message3
+2025-05-06 19:54:14 [main] INFO  presentation.ClientWriter - Sent: 3 Texte message3
+2025-05-06 19:54:16 [main] INFO  messaging.MessagePublisher - Published to exchange write_exchange with routing key : 4 Texte message4
+2025-05-06 19:54:16 [main] INFO  presentation.ClientWriter - Sent: 4 Texte message4
+2025-05-06 19:55:26 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 19:55:26 [main] INFO  data.FileManager - Directory created or already exists: replica1
+2025-05-06 19:55:26 [main] INFO  data.FileManager - Directory created or already exists: replica1
+2025-05-06 19:55:26 [main] INFO  messaging.MessageConsumer - Started consuming from write_queue
+2025-05-06 19:55:26 [main] INFO  messaging.MessageConsumer - Started consuming from replica1_queue
+2025-05-06 19:55:26 [main] INFO  presentation.Replica - Replica 1 started
+2025-05-06 19:55:31 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 19:55:31 [main] INFO  data.FileManager - Directory created or already exists: replica2
+2025-05-06 19:55:31 [main] INFO  data.FileManager - Directory created or already exists: replica2
+2025-05-06 19:55:31 [main] INFO  messaging.MessageConsumer - Started consuming from write_queue
+2025-05-06 19:55:31 [main] INFO  messaging.MessageConsumer - Started consuming from replica2_queue
+2025-05-06 19:55:31 [main] INFO  presentation.Replica - Replica 2 started
+2025-05-06 19:55:41 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 19:55:41 [main] INFO  data.FileManager - Directory created or already exists: replica3
+2025-05-06 19:55:41 [main] INFO  data.FileManager - Directory created or already exists: replica3
+2025-05-06 19:55:41 [main] INFO  messaging.MessageConsumer - Started consuming from write_queue
+2025-05-06 19:55:41 [main] INFO  messaging.MessageConsumer - Started consuming from replica3_queue
+2025-05-06 19:55:41 [main] INFO  presentation.Replica - Replica 3 started
+2025-05-06 19:55:46 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 19:55:47 [main] INFO  messaging.QueueManager - Declared exchange: write_exchange (type: fanout)
+2025-05-06 19:55:47 [main] INFO  messaging.MessagePublisher - Published to exchange write_exchange with routing key : 1 Texte message1
+2025-05-06 19:55:47 [main] INFO  presentation.ClientWriter - Sent: 1 Texte message1
+2025-05-06 19:55:48 [main] INFO  messaging.MessagePublisher - Published to exchange write_exchange with routing key : 2 Texte message2
+2025-05-06 19:55:48 [main] INFO  presentation.ClientWriter - Sent: 2 Texte message2
+2025-05-06 19:55:49 [main] INFO  messaging.MessagePublisher - Published to exchange write_exchange with routing key : 3 Texte message3
+2025-05-06 19:55:49 [main] INFO  presentation.ClientWriter - Sent: 3 Texte message3
+2025-05-06 19:55:50 [main] INFO  messaging.MessagePublisher - Published to exchange write_exchange with routing key : 4 Texte message4
+2025-05-06 19:55:50 [main] INFO  presentation.ClientWriter - Sent: 4 Texte message4
+2025-05-06 20:09:36 [main] INFO  application.MajorityVoter - Found 2 majority lines with threshold 2
+2025-05-06 20:10:09 [main] INFO  application.MajorityVoter - Found 2 majority lines with threshold 2
+2025-05-06 20:11:01 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 20:11:01 [main] INFO  messaging.QueueManager - Declared exchange: write_exchange
+2025-05-06 20:11:01 [main] INFO  messaging.QueueManager - Declared queue: write_replica1_queue
+2025-05-06 20:11:01 [main] INFO  messaging.QueueManager - Declared queue: replica1_queue
+2025-05-06 20:11:01 [main] INFO  messaging.QueueManager - Bound queue write_replica1_queue to exchange write_exchange
+2025-05-06 20:11:01 [main] INFO  data.FileManager - Directory created or already exists: replica1
+2025-05-06 20:11:01 [main] INFO  data.FileManager - Directory created or already exists: replica1
+2025-05-06 20:11:01 [main] INFO  messaging.MessageConsumer - Started consuming from queue: write_replica1_queue
+2025-05-06 20:11:01 [main] INFO  messaging.MessageConsumer - Started consuming from queue: replica1_queue
+2025-05-06 20:11:01 [main] INFO  presentation.Replica - Replica 1 started
+2025-05-06 20:11:28 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 20:11:28 [main] INFO  messaging.QueueManager - Declared exchange: write_exchange
+2025-05-06 20:11:28 [main] INFO  messaging.QueueManager - Declared queue: write_replica2_queue
+2025-05-06 20:11:29 [main] INFO  messaging.QueueManager - Declared queue: replica2_queue
+2025-05-06 20:11:29 [main] INFO  messaging.QueueManager - Bound queue write_replica2_queue to exchange write_exchange
+2025-05-06 20:11:29 [main] INFO  data.FileManager - Directory created or already exists: replica2
+2025-05-06 20:11:29 [main] INFO  data.FileManager - Directory created or already exists: replica2
+2025-05-06 20:11:29 [main] INFO  messaging.MessageConsumer - Started consuming from queue: write_replica2_queue
+2025-05-06 20:11:29 [main] INFO  messaging.MessageConsumer - Started consuming from queue: replica2_queue
+2025-05-06 20:11:29 [main] INFO  presentation.Replica - Replica 2 started
+2025-05-06 20:11:35 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 20:11:35 [main] INFO  messaging.QueueManager - Declared exchange: write_exchange
+2025-05-06 20:11:35 [main] INFO  messaging.QueueManager - Declared queue: write_replica3_queue
+2025-05-06 20:11:35 [main] INFO  messaging.QueueManager - Declared queue: replica3_queue
+2025-05-06 20:11:35 [main] INFO  messaging.QueueManager - Bound queue write_replica3_queue to exchange write_exchange
+2025-05-06 20:11:35 [main] INFO  data.FileManager - Directory created or already exists: replica3
+2025-05-06 20:11:35 [main] INFO  data.FileManager - Directory created or already exists: replica3
+2025-05-06 20:11:35 [main] INFO  messaging.MessageConsumer - Started consuming from queue: write_replica3_queue
+2025-05-06 20:11:35 [main] INFO  messaging.MessageConsumer - Started consuming from queue: replica3_queue
+2025-05-06 20:11:35 [main] INFO  presentation.Replica - Replica 3 started
+2025-05-06 20:11:43 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 20:11:43 [main] INFO  messaging.QueueManager - Declared exchange: write_exchange
+2025-05-06 20:11:43 [main] INFO  presentation.ClientWriter - Sent: 1 Texte message1
+2025-05-06 20:11:43 [pool-1-thread-8] INFO  data.FileManager - Wrote line to replica2\data.txt: 1 Texte message1
+2025-05-06 20:11:43 [pool-1-thread-8] INFO  presentation.Replica - Replica 2 processed write: 1 Texte message1
+2025-05-06 20:11:43 [pool-1-thread-9] INFO  data.FileManager - Wrote line to replica3\data.txt: 1 Texte message1
+2025-05-06 20:11:43 [pool-1-thread-9] INFO  data.FileManager - Wrote line to replica1\data.txt: 1 Texte message1
+2025-05-06 20:11:43 [pool-1-thread-9] INFO  presentation.Replica - Replica 3 processed write: 1 Texte message1
+2025-05-06 20:11:43 [pool-1-thread-9] INFO  presentation.Replica - Replica 1 processed write: 1 Texte message1
+2025-05-06 20:11:44 [main] INFO  presentation.ClientWriter - Sent: 2 Texte message2
+2025-05-06 20:11:44 [pool-1-thread-10] INFO  data.FileManager - Wrote line to replica1\data.txt: 2 Texte message2
+2025-05-06 20:11:44 [pool-1-thread-10] INFO  data.FileManager - Wrote line to replica3\data.txt: 2 Texte message2
+2025-05-06 20:11:44 [pool-1-thread-10] INFO  presentation.Replica - Replica 1 processed write: 2 Texte message2
+2025-05-06 20:11:44 [pool-1-thread-10] INFO  presentation.Replica - Replica 3 processed write: 2 Texte message2
+2025-05-06 20:11:44 [pool-1-thread-9] INFO  data.FileManager - Wrote line to replica2\data.txt: 2 Texte message2
+2025-05-06 20:11:44 [pool-1-thread-9] INFO  presentation.Replica - Replica 2 processed write: 2 Texte message2
+2025-05-06 20:11:45 [main] INFO  presentation.ClientWriter - Sent: 3 Texte message3
+2025-05-06 20:11:45 [pool-1-thread-3] INFO  data.FileManager - Wrote line to replica1\data.txt: 3 Texte message3
+2025-05-06 20:11:45 [pool-1-thread-3] INFO  data.FileManager - Wrote line to replica3\data.txt: 3 Texte message3
+2025-05-06 20:11:45 [pool-1-thread-3] INFO  presentation.Replica - Replica 3 processed write: 3 Texte message3
+2025-05-06 20:11:45 [pool-1-thread-3] INFO  presentation.Replica - Replica 1 processed write: 3 Texte message3
+2025-05-06 20:11:45 [pool-1-thread-10] INFO  data.FileManager - Wrote line to replica2\data.txt: 3 Texte message3
+2025-05-06 20:11:45 [pool-1-thread-10] INFO  presentation.Replica - Replica 2 processed write: 3 Texte message3
+2025-05-06 20:11:46 [main] INFO  presentation.ClientWriter - Sent: 4 Texte message4
+2025-05-06 20:11:46 [pool-1-thread-4] INFO  data.FileManager - Wrote line to replica1\data.txt: 4 Texte message4
+2025-05-06 20:11:46 [pool-1-thread-4] INFO  data.FileManager - Wrote line to replica3\data.txt: 4 Texte message4
+2025-05-06 20:11:46 [pool-1-thread-4] INFO  presentation.Replica - Replica 3 processed write: 4 Texte message4
+2025-05-06 20:11:46 [pool-1-thread-3] INFO  data.FileManager - Wrote line to replica2\data.txt: 4 Texte message4
+2025-05-06 20:11:46 [pool-1-thread-3] INFO  presentation.Replica - Replica 2 processed write: 4 Texte message4
+2025-05-06 20:11:46 [pool-1-thread-4] INFO  presentation.Replica - Replica 1 processed write: 4 Texte message4
+2025-05-06 20:11:47 [main] INFO  messaging.QueueManager - RabbitMQ connection closed
+2025-05-06 20:11:47 [main] INFO  presentation.ClientWriter - ClientWriter closed
+2025-05-06 20:15:29 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 20:15:29 [main] INFO  messaging.QueueManager - Declared exchange: write_exchange
+2025-05-06 20:15:29 [main] INFO  presentation.ClientWriter - Sent: 1 Texte message1
+2025-05-06 20:15:30 [main] INFO  presentation.ClientWriter - Sent: 2 Texte message2
+2025-05-06 20:15:31 [main] INFO  presentation.ClientWriter - Sent: 3 Texte message3
+2025-05-06 20:15:32 [main] INFO  presentation.ClientWriter - Sent: 4 Texte message4
+2025-05-06 20:15:33 [main] INFO  messaging.QueueManager - RabbitMQ connection closed
+2025-05-06 20:15:33 [main] INFO  presentation.ClientWriter - ClientWriter closed
+2025-05-06 20:16:34 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 20:16:34 [main] INFO  messaging.QueueManager - Declared exchange: write_exchange
+2025-05-06 20:16:34 [main] INFO  messaging.QueueManager - Declared queue: write_replica1_queue
+2025-05-06 20:16:34 [main] INFO  messaging.QueueManager - Declared queue: replica1_queue
+2025-05-06 20:16:34 [main] INFO  messaging.QueueManager - Bound queue write_replica1_queue to exchange write_exchange
+2025-05-06 20:16:34 [main] INFO  data.FileManager - Directory created or already exists: replica1
+2025-05-06 20:16:34 [main] INFO  data.FileManager - Directory created or already exists: replica1
+2025-05-06 20:16:34 [main] INFO  messaging.MessageConsumer - Started consuming from queue: write_replica1_queue
+2025-05-06 20:16:34 [main] INFO  messaging.MessageConsumer - Started consuming from queue: replica1_queue
+2025-05-06 20:16:34 [main] INFO  presentation.Replica - Replica 1 started
+2025-05-06 20:16:34 [pool-1-thread-7] INFO  data.FileManager - Wrote line to replica1\data.txt: 1 Texte message1
+2025-05-06 20:16:34 [pool-1-thread-7] INFO  presentation.Replica - Replica 1 processed write: 1 Texte message1
+2025-05-06 20:16:34 [pool-1-thread-7] INFO  data.FileManager - Wrote line to replica1\data.txt: 2 Texte message2
+2025-05-06 20:16:34 [pool-1-thread-7] INFO  presentation.Replica - Replica 1 processed write: 2 Texte message2
+2025-05-06 20:16:34 [pool-1-thread-7] INFO  data.FileManager - Wrote line to replica1\data.txt: 3 Texte message3
+2025-05-06 20:16:34 [pool-1-thread-7] INFO  presentation.Replica - Replica 1 processed write: 3 Texte message3
+2025-05-06 20:16:34 [pool-1-thread-7] INFO  data.FileManager - Wrote line to replica1\data.txt: 4 Texte message4
+2025-05-06 20:16:34 [pool-1-thread-7] INFO  presentation.Replica - Replica 1 processed write: 4 Texte message4
+2025-05-06 20:19:52 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 20:19:53 [main] INFO  messaging.QueueManager - Declared exchange: write_exchange
+2025-05-06 20:19:53 [main] INFO  messaging.QueueManager - Declared queue: write_replica1_queue
+2025-05-06 20:19:53 [main] INFO  messaging.QueueManager - Declared queue: replica1_queue
+2025-05-06 20:19:53 [main] INFO  messaging.QueueManager - Bound queue write_replica1_queue to exchange write_exchange
+2025-05-06 20:19:53 [main] INFO  data.FileManager - Directory created or already exists: replica1
+2025-05-06 20:19:53 [main] INFO  data.FileManager - Directory created or already exists: replica1
+2025-05-06 20:19:53 [main] INFO  messaging.MessageConsumer - Started consuming from queue: write_replica1_queue
+2025-05-06 20:19:53 [main] INFO  messaging.MessageConsumer - Started consuming from queue: replica1_queue
+2025-05-06 20:19:53 [main] INFO  presentation.Replica - Replica 1 started
+2025-05-06 20:22:26 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 20:22:26 [main] INFO  messaging.QueueManager - Declared queue: reply_queue
+2025-05-06 20:22:26 [main] INFO  messaging.QueueManager - Declared queue: replica1_queue
+2025-05-06 20:22:26 [main] INFO  messaging.QueueManager - Declared queue: replica2_queue
+2025-05-06 20:22:26 [main] INFO  messaging.QueueManager - Declared queue: replica3_queue
+2025-05-06 20:22:26 [pool-1-thread-9] INFO  data.FileManager - Read last line: 4 Texte message4
+2025-05-06 20:22:26 [main] INFO  messaging.MessageConsumer - Started consuming from queue: reply_queue
+2025-05-06 20:22:26 [pool-1-thread-9] INFO  presentation.Replica - Replica 1 sent last line: 4 Texte message4
+2025-05-06 20:22:26 [pool-1-thread-8] INFO  presentation.ClientReader - Received: 4 Texte message4
+2025-05-06 20:23:40 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 20:23:40 [main] INFO  messaging.QueueManager - Declared exchange: write_exchange
+2025-05-06 20:23:40 [main] INFO  presentation.ClientWriter - Sent: 1 Texte message1
+2025-05-06 20:23:40 [pool-1-thread-10] INFO  data.FileManager - Wrote line to replica1\data.txt: 1 Texte message1
+2025-05-06 20:23:40 [pool-1-thread-10] INFO  presentation.Replica - Replica 1 processed write: 1 Texte message1
+2025-05-06 20:23:41 [main] INFO  presentation.ClientWriter - Sent: 2 Texte message2
+2025-05-06 20:23:41 [pool-1-thread-3] INFO  data.FileManager - Wrote line to replica1\data.txt: 2 Texte message2
+2025-05-06 20:23:41 [pool-1-thread-3] INFO  presentation.Replica - Replica 1 processed write: 2 Texte message2
+2025-05-06 20:23:42 [main] INFO  presentation.ClientWriter - Sent: 3 Texte message3
+2025-05-06 20:23:42 [pool-1-thread-4] INFO  data.FileManager - Wrote line to replica1\data.txt: 3 Texte message3
+2025-05-06 20:23:42 [pool-1-thread-4] INFO  presentation.Replica - Replica 1 processed write: 3 Texte message3
+2025-05-06 20:23:43 [main] INFO  presentation.ClientWriter - Sent: 4 Texte message4
+2025-05-06 20:23:43 [pool-1-thread-5] INFO  data.FileManager - Wrote line to replica1\data.txt: 4 Texte message4
+2025-05-06 20:23:43 [pool-1-thread-5] INFO  presentation.Replica - Replica 1 processed write: 4 Texte message4
+2025-05-06 20:23:44 [main] INFO  messaging.QueueManager - RabbitMQ connection closed
+2025-05-06 20:23:44 [main] INFO  presentation.ClientWriter - ClientWriter closed
+2025-05-06 20:24:42 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 20:24:43 [main] INFO  messaging.QueueManager - Declared queue: reply_queue
+2025-05-06 20:24:43 [main] INFO  messaging.QueueManager - Declared queue: replica1_queue
+2025-05-06 20:24:43 [main] INFO  messaging.QueueManager - Declared queue: replica2_queue
+2025-05-06 20:24:43 [main] INFO  messaging.QueueManager - Declared queue: replica3_queue
+2025-05-06 20:24:43 [main] INFO  messaging.MessageConsumer - Started consuming from queue: reply_queue
+2025-05-06 20:24:43 [pool-1-thread-6] INFO  data.FileManager - Read last line: 4 Texte message4
+2025-05-06 20:24:43 [pool-1-thread-6] INFO  presentation.Replica - Replica 1 sent last line: 4 Texte message4
+2025-05-06 20:24:43 [pool-1-thread-8] INFO  presentation.ClientReader - Received: 4 Texte message4
+2025-05-06 20:25:08 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 20:25:08 [main] INFO  messaging.QueueManager - Declared exchange: write_exchange
+2025-05-06 20:25:08 [main] INFO  messaging.QueueManager - Declared queue: write_replica2_queue
+2025-05-06 20:25:09 [main] INFO  messaging.QueueManager - Declared queue: replica2_queue
+2025-05-06 20:25:09 [main] INFO  messaging.QueueManager - Bound queue write_replica2_queue to exchange write_exchange
+2025-05-06 20:25:09 [main] INFO  data.FileManager - Directory created or already exists: replica2
+2025-05-06 20:25:09 [main] INFO  data.FileManager - Directory created or already exists: replica2
+2025-05-06 20:25:09 [main] INFO  messaging.MessageConsumer - Started consuming from queue: write_replica2_queue
+2025-05-06 20:25:09 [pool-1-thread-8] INFO  data.FileManager - Wrote line to replica2\data.txt: 1 Texte message1
+2025-05-06 20:25:09 [pool-1-thread-8] INFO  presentation.Replica - Replica 2 processed write: 1 Texte message1
+2025-05-06 20:25:09 [pool-1-thread-8] INFO  data.FileManager - Wrote line to replica2\data.txt: 2 Texte message2
+2025-05-06 20:25:09 [main] INFO  messaging.MessageConsumer - Started consuming from queue: replica2_queue
+2025-05-06 20:25:09 [pool-1-thread-8] INFO  presentation.Replica - Replica 2 processed write: 2 Texte message2
+2025-05-06 20:25:09 [main] INFO  presentation.Replica - Replica 2 started
+2025-05-06 20:25:09 [pool-1-thread-8] INFO  data.FileManager - Wrote line to replica2\data.txt: 3 Texte message3
+2025-05-06 20:25:09 [pool-1-thread-8] INFO  presentation.Replica - Replica 2 processed write: 3 Texte message3
+2025-05-06 20:25:09 [pool-1-thread-9] INFO  data.FileManager - Wrote line to replica2\data.txt: 4 Texte message4
+2025-05-06 20:25:09 [pool-1-thread-9] INFO  presentation.Replica - Replica 2 processed write: 4 Texte message4
+2025-05-06 20:25:09 [pool-1-thread-9] INFO  data.FileManager - Wrote line to replica2\data.txt: 1 Texte message1
+2025-05-06 20:25:09 [pool-1-thread-9] INFO  presentation.Replica - Replica 2 processed write: 1 Texte message1
+2025-05-06 20:25:09 [pool-1-thread-9] INFO  data.FileManager - Wrote line to replica2\data.txt: 2 Texte message2
+2025-05-06 20:25:09 [pool-1-thread-9] INFO  presentation.Replica - Replica 2 processed write: 2 Texte message2
+2025-05-06 20:25:09 [pool-1-thread-9] INFO  data.FileManager - Wrote line to replica2\data.txt: 3 Texte message3
+2025-05-06 20:25:09 [pool-1-thread-9] INFO  presentation.Replica - Replica 2 processed write: 3 Texte message3
+2025-05-06 20:25:09 [pool-1-thread-9] INFO  data.FileManager - Wrote line to replica2\data.txt: 4 Texte message4
+2025-05-06 20:25:09 [pool-1-thread-9] INFO  presentation.Replica - Replica 2 processed write: 4 Texte message4
+2025-05-06 20:25:09 [pool-1-thread-9] INFO  data.FileManager - Read last line: 4 Texte message4
+2025-05-06 20:25:09 [pool-1-thread-9] INFO  presentation.Replica - Replica 2 sent last line: 4 Texte message4
+2025-05-06 20:25:09 [pool-1-thread-9] INFO  data.FileManager - Read last line: 4 Texte message4
+2025-05-06 20:25:09 [pool-1-thread-9] INFO  presentation.Replica - Replica 2 sent last line: 4 Texte message4
+2025-05-06 20:25:09 [pool-1-thread-10] INFO  presentation.ClientReader - Received: 4 Texte message4
+2025-05-06 20:25:21 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 20:25:22 [main] INFO  messaging.QueueManager - Declared exchange: write_exchange
+2025-05-06 20:25:22 [main] INFO  messaging.QueueManager - Declared queue: write_replica3_queue
+2025-05-06 20:25:22 [main] INFO  messaging.QueueManager - Declared queue: replica3_queue
+2025-05-06 20:25:22 [main] INFO  messaging.QueueManager - Bound queue write_replica3_queue to exchange write_exchange
+2025-05-06 20:25:22 [main] INFO  data.FileManager - Directory created or already exists: replica3
+2025-05-06 20:25:22 [main] INFO  data.FileManager - Directory created or already exists: replica3
+2025-05-06 20:25:22 [main] INFO  messaging.MessageConsumer - Started consuming from queue: write_replica3_queue
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  data.FileManager - Wrote line to replica3\data.txt: 1 Texte message1
+2025-05-06 20:25:22 [main] INFO  messaging.MessageConsumer - Started consuming from queue: replica3_queue
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  presentation.Replica - Replica 3 processed write: 1 Texte message1
+2025-05-06 20:25:22 [main] INFO  presentation.Replica - Replica 3 started
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  data.FileManager - Wrote line to replica3\data.txt: 2 Texte message2
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  presentation.Replica - Replica 3 processed write: 2 Texte message2
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  data.FileManager - Wrote line to replica3\data.txt: 3 Texte message3
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  presentation.Replica - Replica 3 processed write: 3 Texte message3
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  data.FileManager - Wrote line to replica3\data.txt: 4 Texte message4
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  presentation.Replica - Replica 3 processed write: 4 Texte message4
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  data.FileManager - Wrote line to replica3\data.txt: 1 Texte message1
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  presentation.Replica - Replica 3 processed write: 1 Texte message1
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  data.FileManager - Wrote line to replica3\data.txt: 2 Texte message2
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  presentation.Replica - Replica 3 processed write: 2 Texte message2
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  data.FileManager - Wrote line to replica3\data.txt: 3 Texte message3
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  presentation.Replica - Replica 3 processed write: 3 Texte message3
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  data.FileManager - Wrote line to replica3\data.txt: 4 Texte message4
+2025-05-06 20:25:22 [pool-1-thread-7] INFO  presentation.Replica - Replica 3 processed write: 4 Texte message4
+2025-05-06 20:25:22 [pool-1-thread-8] INFO  data.FileManager - Read last line: 4 Texte message4
+2025-05-06 20:25:22 [pool-1-thread-8] INFO  presentation.Replica - Replica 3 sent last line: 4 Texte message4
+2025-05-06 20:25:22 [pool-1-thread-8] INFO  data.FileManager - Read last line: 4 Texte message4
+2025-05-06 20:25:22 [pool-1-thread-8] INFO  presentation.Replica - Replica 3 sent last line: 4 Texte message4
+2025-05-06 20:25:22 [pool-1-thread-3] INFO  presentation.ClientReader - Received: 4 Texte message4
+2025-05-06 20:25:56 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 20:25:56 [main] INFO  messaging.QueueManager - Declared queue: reply_queue
+2025-05-06 20:25:56 [main] INFO  messaging.QueueManager - Declared queue: replica1_queue
+2025-05-06 20:25:56 [main] INFO  messaging.QueueManager - Declared queue: replica2_queue
+2025-05-06 20:25:56 [main] INFO  messaging.QueueManager - Declared queue: replica3_queue
+2025-05-06 20:25:56 [pool-1-thread-7] INFO  data.FileManager - Read last line: 4 Texte message4
+2025-05-06 20:25:56 [main] INFO  messaging.MessageConsumer - Started consuming from queue: reply_queue
+2025-05-06 20:25:56 [pool-1-thread-7] INFO  presentation.Replica - Replica 1 sent last line: 4 Texte message4
+2025-05-06 20:25:56 [pool-1-thread-10] INFO  data.FileManager - Read last line: 3 Texte message3
+2025-05-06 20:25:56 [pool-1-thread-10] INFO  presentation.Replica - Replica 2 sent last line: 3 Texte message3
+2025-05-06 20:25:56 [pool-1-thread-8] INFO  presentation.ClientReader - Received: 4 Texte message4
+2025-05-06 20:25:56 [pool-1-thread-9] INFO  presentation.ClientReader - Received: 3 Texte message3
+2025-05-06 20:25:56 [pool-1-thread-9] INFO  data.FileManager - Read last line: 3 Texte message3
+2025-05-06 20:25:56 [pool-1-thread-9] INFO  presentation.Replica - Replica 3 sent last line: 3 Texte message3
+2025-05-06 20:25:56 [pool-1-thread-10] INFO  presentation.ClientReader - Received: 3 Texte message3
+2025-05-06 20:26:34 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 20:26:35 [main] INFO  messaging.QueueManager - Declared queue: reply_queue
+2025-05-06 20:26:35 [main] INFO  messaging.QueueManager - Declared queue: replica1_queue
+2025-05-06 20:26:35 [main] INFO  messaging.QueueManager - Declared queue: replica2_queue
+2025-05-06 20:26:35 [main] INFO  messaging.QueueManager - Declared queue: replica3_queue
+2025-05-06 20:26:36 [pool-1-thread-3] INFO  data.FileManager - Read last line: 3 Texte message3
+2025-05-06 20:26:36 [pool-1-thread-3] INFO  presentation.Replica - Replica 2 sent last line: 3 Texte message3
+2025-05-06 20:26:36 [main] INFO  messaging.MessageConsumer - Started consuming from queue: reply_queue
+2025-05-06 20:26:36 [pool-1-thread-10] INFO  data.FileManager - Read last line: 3 Texte message3
+2025-05-06 20:26:36 [pool-1-thread-7] INFO  presentation.ClientReader - Received: 3 Texte message3
+2025-05-06 20:26:36 [pool-1-thread-10] INFO  presentation.Replica - Replica 3 sent last line: 3 Texte message3
+2025-05-06 20:26:36 [pool-1-thread-8] INFO  data.FileManager - Read last line: 4 Texte message4
+2025-05-06 20:26:36 [pool-1-thread-8] INFO  presentation.Replica - Replica 1 sent last line: 4 Texte message4
+2025-05-06 20:26:36 [pool-1-thread-8] INFO  presentation.ClientReader - Received: 3 Texte message3
+2025-05-06 20:26:36 [pool-1-thread-8] INFO  presentation.ClientReader - Received: 4 Texte message4
+2025-05-06 20:26:57 [main] INFO  infrastructure.ConfigManager - Configuration loaded successfully
+2025-05-06 20:26:58 [main] INFO  messaging.QueueManager - Declared queue: reply_queue
+2025-05-06 20:26:58 [main] INFO  messaging.QueueManager - Declared queue: replica1_queue
+2025-05-06 20:26:58 [main] INFO  messaging.QueueManager - Declared queue: replica2_queue
+2025-05-06 20:26:58 [main] INFO  messaging.QueueManager - Declared queue: replica3_queue
+2025-05-06 20:26:58 [main] INFO  messaging.MessageConsumer - Started consuming from queue: reply_queue
+2025-05-06 20:26:58 [pool-1-thread-4] INFO  data.FileManager - Read 11 lines from data.txt
+2025-05-06 20:26:58 [pool-1-thread-3] INFO  data.FileManager - Read 9 lines from data.txt
+2025-05-06 20:26:58 [pool-1-thread-4] INFO  presentation.Replica - Replica 2 sent line: 1 Texte message1
+2025-05-06 20:26:58 [pool-1-thread-9] INFO  data.FileManager - Read 12 lines from data.txt
+2025-05-06 20:26:58 [pool-1-thread-3] INFO  presentation.Replica - Replica 3 sent line: 1 Texte message1
+2025-05-06 20:26:58 [pool-1-thread-4] INFO  presentation.Replica - Replica 2 sent line: 2 Texte message2
+2025-05-06 20:26:58 [pool-1-thread-4] INFO  presentation.Replica - Replica 2 sent line: 3 Texte message3
+2025-05-06 20:26:58 [pool-1-thread-4] INFO  presentation.Replica - Replica 2 sent line: 4 Texte message4
+2025-05-06 20:26:58 [pool-1-thread-4] INFO  presentation.Replica - Replica 2 sent line: 1 Texte message1
+2025-05-06 20:26:58 [pool-1-thread-3] INFO  presentation.Replica - Replica 3 sent line: 2 Texte message2
+2025-05-06 20:26:58 [pool-1-thread-4] INFO  presentation.Replica - Replica 2 sent line: 2 Texte message2
+2025-05-06 20:26:58 [pool-1-thread-3] INFO  presentation.Replica - Replica 3 sent line: 1 Texte message1
+2025-05-06 20:26:58 [pool-1-thread-4] INFO  presentation.Replica - Replica 2 sent line: 3 Texte message3
+2025-05-06 20:26:58 [pool-1-thread-3] INFO  presentation.Replica - Replica 3 sent line: 2 Texte message2
+2025-05-06 20:26:58 [pool-1-thread-3] INFO  presentation.Replica - Replica 3 sent line: 3 Texte message3
+2025-05-06 20:26:58 [pool-1-thread-4] INFO  presentation.Replica - Replica 2 sent line: 4 Texte message4
+2025-05-06 20:26:58 [pool-1-thread-9] INFO  presentation.Replica - Replica 1 sent line: 1 Texte message1
+2025-05-06 20:26:58 [pool-1-thread-3] INFO  presentation.Replica - Replica 3 sent line: 4 Texte message4
+2025-05-06 20:26:58 [pool-1-thread-4] INFO  presentation.Replica - Replica 2 sent line: 1 Texte message1
+2025-05-06 20:26:58 [pool-1-thread-4] INFO  presentation.Replica - Replica 2 sent line: 2 Texte message2
+2025-05-06 20:26:58 [pool-1-thread-9] INFO  presentation.Replica - Replica 1 sent line: 2 Texte message2
+2025-05-06 20:26:58 [pool-1-thread-3] INFO  presentation.Replica - Replica 3 sent line: 1 Texte message1
+2025-05-06 20:26:58 [pool-1-thread-3] INFO  presentation.Replica - Replica 3 sent line: 2 Texte message2
+2025-05-06 20:26:58 [pool-1-thread-4] INFO  presentation.Replica - Replica 2 sent line: 3 Texte message3
+2025-05-06 20:26:58 [pool-1-thread-9] INFO  presentation.Replica - Replica 1 sent line: 3 Texte message3
+2025-05-06 20:26:58 [pool-1-thread-3] INFO  presentation.Replica - Replica 3 sent line: 3 Texte message3
+2025-05-06 20:26:58 [pool-1-thread-9] INFO  presentation.Replica - Replica 1 sent line: 4 Texte message4
+2025-05-06 20:26:58 [pool-1-thread-9] INFO  presentation.Replica - Replica 1 sent line: 1 Texte message1
+2025-05-06 20:26:58 [pool-1-thread-9] INFO  presentation.Replica - Replica 1 sent line: 2 Texte message2
+2025-05-06 20:26:58 [pool-1-thread-9] INFO  presentation.Replica - Replica 1 sent line: 3 Texte message3
+2025-05-06 20:26:58 [pool-1-thread-9] INFO  presentation.Replica - Replica 1 sent line: 4 Texte message4
+2025-05-06 20:26:58 [pool-1-thread-9] INFO  presentation.Replica - Replica 1 sent line: 1 Texte message1
+2025-05-06 20:26:58 [pool-1-thread-9] INFO  presentation.Replica - Replica 1 sent line: 2 Texte message2
+2025-05-06 20:26:58 [pool-1-thread-9] INFO  presentation.Replica - Replica 1 sent line: 3 Texte message3
+2025-05-06 20:26:58 [pool-1-thread-9] INFO  presentation.Replica - Replica 1 sent line: 4 Texte message4
+2025-05-06 20:27:03 [main] INFO  application.MajorityVoter - Found 4 majority lines with threshold 2
+2025-05-06 20:27:03 [main] INFO  presentation.ClientReaderV2 - Majority lines:
+2025-05-06 20:27:03 [main] INFO  messaging.QueueManager - RabbitMQ connection closed

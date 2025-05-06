@@ -1,0 +1,15 @@
+C:\gl3\s2\ouni\tp\tp3\src\main\java\application\MajorityVoter.java
+C:\gl3\s2\ouni\tp\tp3\src\main\java\application\ReadProcessor.java
+C:\gl3\s2\ouni\tp\tp3\src\main\java\application\WriteProcessor.java
+C:\gl3\s2\ouni\tp\tp3\src\main\java\data\DataValidator.java
+C:\gl3\s2\ouni\tp\tp3\src\main\java\data\FileManager.java
+C:\gl3\s2\ouni\tp\tp3\src\main\java\infrastructure\ConfigManager.java
+C:\gl3\s2\ouni\tp\tp3\src\main\java\infrastructure\ErrorHandler.java
+C:\gl3\s2\ouni\tp\tp3\src\main\java\infrastructure\LoggingUtility.java
+C:\gl3\s2\ouni\tp\tp3\src\main\java\messaging\MessageConsumer.java
+C:\gl3\s2\ouni\tp\tp3\src\main\java\messaging\MessagePublisher.java
+C:\gl3\s2\ouni\tp\tp3\src\main\java\messaging\QueueManager.java
+C:\gl3\s2\ouni\tp\tp3\src\main\java\presentation\ClientReader.java
+C:\gl3\s2\ouni\tp\tp3\src\main\java\presentation\ClientReaderV2.java
+C:\gl3\s2\ouni\tp\tp3\src\main\java\presentation\ClientWriter.java
+C:\gl3\s2\ouni\tp\tp3\src\main\java\presentation\Replica.java

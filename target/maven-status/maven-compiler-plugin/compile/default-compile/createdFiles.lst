@@ -1,0 +1,16 @@
+application\MajorityVoter.class
+application\ReadProcessor.class
+infrastructure\ConfigManager.class
+infrastructure\LoggingUtility.class
+presentation\ClientWriter.class
+messaging\MessagePublisher.class
+application\WriteProcessor.class
+infrastructure\ErrorHandler$SupplierWithException.class
+messaging\MessageConsumer.class
+infrastructure\ErrorHandler.class
+presentation\ClientReaderV2.class
+presentation\Replica.class
+data\FileManager.class
+presentation\ClientReader.class
+data\DataValidator.class
+messaging\QueueManager.class
