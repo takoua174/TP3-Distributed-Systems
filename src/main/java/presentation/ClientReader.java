@@ -17,6 +17,7 @@ public class ClientReader {
     private final MessageConsumer consumer;
     private final String replyQueue;
     private final String[] replicaQueues;
+    private volatile boolean responseReceived = false;
 
     public ClientReader(ConfigManager config) {
         this.queueManager = new QueueManager(config);
@@ -36,13 +37,25 @@ public class ClientReader {
 
         for (String replicaQueue : replicaQueues) {
             publisher.publish(replicaQueue, "Read Last", correlationId, replyQueue);
+            logger.info("Sent Read Last to {}", replicaQueue);
         }
 
         DeliverCallback callback = (consumerTag, delivery) -> {
-            if (delivery.getProperties().getCorrelationId().equals(correlationId)) {
-                String message = new String(delivery.getBody(), "UTF-8");
-                logger.info("Received: {}", message);
-                System.out.println("Last line: " + message);
+            if (delivery.getProperties().getCorrelationId().equals(correlationId) && !responseReceived) {
+                synchronized (this) {
+                    if (!responseReceived) {
+                        responseReceived = true;
+                        String message = new String(delivery.getBody(), "UTF-8");
+                        logger.info("Received last message: {}", message);
+                        System.out.println("Last line: " + message);
+                        try {
+                            consumer.getChannel().basicCancel(consumerTag);
+                            logger.info("Consumer cancelled after last message");
+                        } catch (Exception e) {
+                            logger.error("Failed to cancel consumer", e);
+                        }
+                    }
+                }
             }
         };
 
@@ -51,6 +64,7 @@ public class ClientReader {
 
     public void close() {
         queueManager.close();
+        logger.info("ClientReader closed");
     }
 
     public static void main(String[] args) {
@@ -58,8 +72,8 @@ public class ClientReader {
         ClientReader reader = new ClientReader(config);
         try {
             reader.readLastLine();
-            // Keep consuming
-            Thread.sleep(Long.MAX_VALUE);
+            // Wait briefly for response
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
             logger.error("Interrupted during read", e);

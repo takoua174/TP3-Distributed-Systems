@@ -36,7 +36,7 @@ public class QueueManager {
 
     public void declareQueue(String queueName) {
         try (Channel channel = createChannel()) {
-            channel.queueDeclare(queueName, false, false, false, null);
+            channel.queueDeclare(queueName, false, false, true, null);
             logger.info("Declared queue: {}", queueName);
         } catch (Exception e) {
             logger.error("Failed to declare queue: {}", queueName, e);

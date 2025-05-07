@@ -22,4 +22,7 @@ public class MessageConsumer {
             throw new RuntimeException("Consume failed", e);
         }
     }
+    public Channel getChannel() {
+        return channel;
+    }
 }
